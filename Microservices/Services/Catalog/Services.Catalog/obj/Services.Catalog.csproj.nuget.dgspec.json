@@ -40,9 +40,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
