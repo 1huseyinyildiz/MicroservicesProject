@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Services.Catalog.Services
 {
-    public class CategoryService
+    public class CategoryService :ICategoryService
     {
         private readonly IMongoCollection<Category> _categoriesCollection;
 

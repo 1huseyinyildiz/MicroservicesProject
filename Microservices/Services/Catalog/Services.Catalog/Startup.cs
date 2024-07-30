@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Services.Catalog.Mapping;
+using Services.Catalog.Services;
 using Services.Catalog.Settings;
 
 namespace Services.Catalog
@@ -31,6 +32,8 @@ namespace Services.Catalog
             IMapper mapper = mapperConfig.CreateMapper(); services.AddControllers();
 
             services.Configure<DatabaseSettings>(Configuration.GetSection(nameof(DatabaseSettings)));
+
+            services.AddScoped<ICategoryService, CategoryService>();
             services.AddSingleton<IDatabaseSettings>(sp =>
             {
                 return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
