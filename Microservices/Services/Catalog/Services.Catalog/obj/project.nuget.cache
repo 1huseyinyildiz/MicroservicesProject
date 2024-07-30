@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7/dWdpfN28/kjgas7oUKNspf4zbElLsfqXVXKt+a9OD3H/FQpTKIsedEgtCF9qn6UhXyeF5jIK3Tbl/6+X33lw==",
+  "dgSpecHash": "T80WVoB7Nx8DxRl/P1lEmTauTbI8U6jEMLD0TYx7wGIQ1A0TWaKOK9iJVXahhCaLETc1dfLRmLexObf4gElOIQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\MicroservicesProject\\Microservices\\Services\\Catalog\\Services.Catalog\\Services.Catalog.csproj",
   "expectedPackageFiles": [
