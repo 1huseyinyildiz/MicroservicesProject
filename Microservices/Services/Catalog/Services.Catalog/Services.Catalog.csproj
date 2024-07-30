@@ -14,4 +14,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Shared">
+      <HintPath>..\..\..\Shared\Shared\obj\Debug\net6.0\ref\Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
