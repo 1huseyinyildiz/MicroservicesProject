@@ -25,6 +25,4 @@ jobs:
         run: dotnet build ./Microservices/Microservices.sln --configuration Release
 
       - name: Publish
-        run: dotnet publish ./Microservices/Microservices.sln --configuration Release --no-build --output 
-
-      
+        run: dotnet publish ./Microservices/Microservices.sln --configuration Release --no-build --output ./publish
