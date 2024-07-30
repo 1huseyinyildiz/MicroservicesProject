@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Services.Catalog.Services
 {
-    public class CategoryService :ICategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly IMongoCollection<Category> _categoriesCollection;
 
@@ -48,5 +48,9 @@ namespace Services.Catalog.Services
             return Response<CategoryDto>.Success(_mapper.Map<CategoryDto>(category), 200);
         }
 
+        public Task<Response<CategoryDto>> Delete(string id)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
