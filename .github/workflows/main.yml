@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   publish:
@@ -17,15 +17,15 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.x'
-   
+  
     - name: Restore
-      run: dotnet restore ./Microservices.sln
+      run: dotnet restore ./MicroservicesProject/MicroservicesI.sln
   
     - name: Build
-      run: dotnet build ./Todos.WebAPI.sln --configuration Release
+      run: dotnet build ./MicroservicesProject/MicroservicesI.sln --configuration Release
   
     - name: Publish
-      run: dotnet publish ./Microservices.sln --configuration Release --no-build --output './publish'
+      run: dotnet publish ./Todos.WebAPI.csproj --configuration Release --no-build --output './publish'
 
     - name: Deployment
       uses: azure/webapps-deploy@v2
@@ -33,4 +33,5 @@ jobs:
         app-name: my-todo-net-app
         publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
         package: './publish'
+    
     
