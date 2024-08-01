@@ -13,7 +13,5 @@ namespace Services.Catalog.Services
         Task<Response<CategoryDto>> CreateAsync(Category category);
 
         Task<Response<CategoryDto>> GetByAsync(string id);
-
-        Task<Response<CategoryDto>> Delete(string id);
     }
 }
