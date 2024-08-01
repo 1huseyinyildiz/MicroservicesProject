@@ -1,0 +1,7 @@
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.csproj.AssemblyReference.cache
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.AssemblyInfoInputs.cache
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.AssemblyInfo.cs
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.csproj.CoreCompileInputs.cache
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\MicroservicesProject\Microservices\Services\Catalog\Services.Catalog\obj\Debug\net6.0\Services.Catalog.MvcApplicationPartsAssemblyInfo.cache
