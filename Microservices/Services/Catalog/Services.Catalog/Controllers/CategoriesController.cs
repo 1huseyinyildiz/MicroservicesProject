@@ -27,7 +27,7 @@ namespace Services.Catalog.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(string id)
         {
-            var response = await _categoryService.GetByAsync(id);
+            var response = await _categoryService.GetByIdAsync(id);
             return CreateActionResultInstance(response);
         }
 

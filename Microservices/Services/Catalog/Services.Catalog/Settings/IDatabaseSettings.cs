@@ -6,7 +6,7 @@
 
         public string CategoryCollectionName { get; set; }
 
-        public string ConntectionString { get; set; }
+        public string ConnectionString { get; set; }
 
         public string DatabaseName { get; set; }
     }
