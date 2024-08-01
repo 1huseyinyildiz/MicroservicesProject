@@ -10,7 +10,7 @@ namespace Services.Catalog.Services
     {
         Task<Response<List<CategoryDto>>> GetAllAsync();
 
-        Task<Response<CategoryDto>> CreateAsync(Category category);
+        Task<Response<CategoryDto>> CreateAsync(CategoryDto category);
 
         Task<Response<CategoryDto>> GetByAsync(string id);
     }
