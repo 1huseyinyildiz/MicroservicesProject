@@ -21,15 +21,14 @@ namespace Services.Catalog.Services
 
         public CourseService(IMapper mapper, IDatabaseSettings databaseSettings, IMongoCollection<Course> categoryCollection)
         {
-            var client = new MongoClient(databaseSettings.ConntectionString);
+            var client = new MongoClient(databaseSettings.ConnectionString);
             var database = client.GetDatabase(databaseSettings.DatabaseName);
 
             _courseCollection = database.GetCollection<Course>(databaseSettings.CourseCollectionName);
             _categoryCollection = database.GetCollection<Category>(databaseSettings.CategoryCollectionName);
-
             _mapper = mapper;
-
         }
+
 
         public async Task<Response<List<CourseDto>>> GetAllAsync()
         {
