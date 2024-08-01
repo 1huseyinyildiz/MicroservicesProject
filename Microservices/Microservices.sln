@@ -12,11 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ports", "Ports", "{AD808F5C
 		Ports.txt = Ports.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Catalog", "Services\Catalog\Services.Catalog\Services.Catalog.csproj", "{B5FFFEF3-FEEE-457D-B8B6-74A90E3096F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Catalog", "Services\Catalog\Services.Catalog\Services.Catalog.csproj", "{B5FFFEF3-FEEE-457D-B8B6-74A90E3096F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{EC61F7CF-283F-4154-A654-6A4AB7C93C42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared\Shared.csproj", "{88AA0F67-4DA4-4B8B-98C8-EEA661031D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared\Shared.csproj", "{88AA0F67-4DA4-4B8B-98C8-EEA661031D68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{835182FC-F239-4CAB-B99C-F571D70A8F06}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
