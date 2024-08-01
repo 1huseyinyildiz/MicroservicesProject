@@ -46,11 +46,5 @@ namespace Services.Catalog.Services
                 return Response<CategoryDto>.Fail("Category not found", 404);
             }
             return Response<CategoryDto>.Success(_mapper.Map<CategoryDto>(category), 200);
-        }
-
-        public Task<Response<CategoryDto>> Delete(string id)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }
